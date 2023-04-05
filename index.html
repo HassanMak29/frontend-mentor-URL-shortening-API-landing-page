@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link rel="stylesheet" href="output.css" />
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrapper">
+        <div class="logo">Shortly</div>
+        <nav class="header-nav">
+          <div class="links">
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="nav-cta">
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a class="btn signup" href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </nav>
+        <img
+          id="burger-menu"
+          class="burger-menu"
+          src="images/menu.png"
+          alt="burger menu icon"
+        />
+        <img
+          id="close-menu"
+          class="close-menu"
+          src="images/close.png"
+          alt="close menu icon"
+        />
+      </div>
+      <section class="section-hero">
+        <div class="hero__left">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <a class="btn" href="#">Get Started</a>
+        </div>
+        <div class="hero__right">
+          <img
+            src="images/illustration-working.svg"
+            alt="women working on computer illustration"
+          />
+        </div>
+      </section>
+    </header>
+    <main>
+      <form class="action-container">
+        <input
+          id="url-input"
+          type="text"
+          placeholder="Shorten a link here..."
+        />
+        <p id="invalid-message" class="invalid-message">Please add a link</p>
+        <button id="shorten-it" class="btn btn-shorten-it">Shorten It!</button>
+      </form>
+      <div class="urls">
+        <!-- <div class="url-wrapper">
+          <div class="original-url">https://www.frontendmentor.io</div>
+          <div class="result">
+            <div class="shortened-url">https://rel.ink/k4|Kyk</div>
+            <button class="btn">Copy</button>
+          </div>
+        </div>
+        <div class="url-wrapper">
+          <div class="original-url">https://www.frontendmentor.io</div>
+          <div class="result">
+            <div class="shortened-url">https://rel.ink/k4|Kyk</div>
+            <button class="btn">Copy</button>
+          </div>
+        </div>
+        <div class="url-wrapper">
+          <div class="original-url">https://www.frontendmentor.io</div>
+          <div class="result">
+            <div class="shortened-url">https://rel.ink/k4|Kyk</div>
+            <button class="btn">Copy</button>
+          </div>
+        </div> -->
+      </div>
+      <section class="section-statistics">
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="icon">
+              <img src="images/icon-brand-recognition.svg" alt="svg icon" />
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="images/icon-detailed-records.svg" alt="svg icon" />
+            </div>
+            <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="images/icon-fully-customizable.svg" alt="svg icon" />
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-cta">
+        <h2>Boost your links today</h2>
+        <button class="btn">Get Started</button>
+      </section>
+    </main>
+    <footer>
+      <div class="logo">Shortly</div>
+      <nav class="footer-nav-wrapper">
+        <div class="nav-col">
+          <span>Features</span>
+          <ul>
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <span>Resources</span>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <span>Company</span>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <ul class="social-links">
+            <li>
+              <a href="#"
+                ><img src="images/icon-facebook.svg" alt="facebook icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon-twitter.svg" alt="twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon-pinterest.svg" alt="pinterest icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon-instagram.svg" alt="instagram icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="attribution">
+        Challenge by &nbsp;
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. &nbsp;Coded by &nbsp;<a href="https://www.makhloufi.me"
+          >Abdelmounaim H. Makhloufi</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
