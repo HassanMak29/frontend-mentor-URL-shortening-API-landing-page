@@ -23,7 +23,7 @@
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-URL-shortening-API-landing-page)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://frontend-mentor-api-shortner-landing.netlify.app/)
 
 ## My process
 
